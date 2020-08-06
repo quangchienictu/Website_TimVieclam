@@ -1,0 +1,146 @@
+*{
+
+}
+/* titile */
+
+
+.title_chitiet h3{
+	color: #273e2f;
+	font-weight: bold;
+
+	font-size: 45px;
+	background-color: #ccc;
+	padding: 10px 0px;
+	margin-top: -10px;
+}
+.title_chitiet img{
+	width: 30px;
+}
+/*end titile */
+
+
+/*===container_chitiet=====*/
+
+.container_chitiet{
+	font-size: 20px;
+
+}
+.container_chitiet .display h5,.display p{
+	display: inline;
+}
+.container_chitiet .display h5{
+	width: 30%;
+}
+.container_chitiet .col-12{
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.container_chitiet .col-12 img{
+	margin-right: 5px;
+}
+.container_chitiet .col-12:first-child{
+	border: none !important;
+	padding: 0 !important;
+}
+/*end container_chitiet*/
+
+
+/* viec_lien_quan */
+.viec_lien_quan .backgroud{
+	border-bottom: 1px solid #ccc;
+}
+.viec_lien_quan{
+	background-color: #f1f1f1;
+}
+.viec_lien_quan a{
+	text-decoration: none;
+	color: black;
+}
+.viec_lien_quan a:hover{
+	text-decoration: none;
+	color: black;
+}
+.viec_lien_quan .col-12:first-child{
+	color: #47d444;
+	text-align: center;
+	background: #717171;
+	padding: 5px 0px;
+
+}
+.viec_lien_quan .col-7{
+	padding: 10px 0px;
+}
+.viec_lam{
+
+	line-height: 0px;
+	margin-top: 10px;
+}
+.viec_lam .col-12{
+	margin-top: 10px;
+}
+.viec_lien_quan img{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.viec_moi{
+	margin-top: 40px;
+}
+/*end viec_lien_quan */
+
+.lienhe{
+	margin-top: 40px;
+}
+@media (max-width: 992px){
+	.viec_lien_quan{
+		margin-top: 40px;
+		margin-right: 5px;
+	}
+
+}
+.vieclam .input{
+	margin-top: 50px;
+}
+.vieclam .input input{
+	width: 170px;
+	border:none;
+	border-radius: 5px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.vieclam .input input#huy{
+	background-color: white;
+	color: #10c550;
+	border: 1px solid #10c550;
+	margin-left: 20px;
+	transition: 0.25s;
+	text-align: center;
+	cursor: pointer;
+}
+.vieclam .input input#luu{
+	background: #10c550;
+	color: white;
+	border: 1px solid #10c550;
+}
+.vieclam .input input#ngung{
+	background: #e83c3c;
+	color: white;
+	border: 1px solid #10c550;
+}
+
+.vieclam .input input#luu:hover{
+	background: #1e6939;
+}
+.vieclam .input input#huy:hover{
+	background-color: #eaeaea;
+}
+.vieclam .input input#ngung:hover{
+	background-color: #8c3939;
+	color: white;
+}
+.vieclam #a_huy{
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}

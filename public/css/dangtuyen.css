@@ -1,0 +1,72 @@
+.dangtuyen h3{
+	text-align: center;
+	font-size: 35px;
+	color: red;
+	margin-top: 30px;
+}
+.dangtuyen {
+
+}
+.dangtuyen img{
+	margin-bottom: 20px;
+}
+.dangtuyen .row{
+	border: 1px solid #ccc !important;
+}
+.dangtuyen .row .col-12{
+	padding: 10px 20px;
+}
+.dangtuyen .row p{
+	font-weight: bold;
+
+}
+.dangtuyen .row input[type="radio"]{
+	width: 20px;
+	margin-left: 20px;
+
+}
+.dangtuyen .row input,.dangtuyen .row select,.dangtuyen .row textarea{
+	width: 80%;
+}
+.dangtuyen .input{
+	margin-top: 50px;
+	border: none!important;
+}
+.dangtuyen .input .col-12{
+	border: none;
+}
+.dangtuyen .input input{
+	width: 170px;
+	border:none;
+	border-radius: 5px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.dangtuyen .input input#huy{
+	background-color: white;
+	color: #10c550;
+	border: 1px solid #10c550;
+	margin-left: 10px;
+	transition: 0.25s;
+}
+.dangtuyen .input input#luu{
+	background: #10c550;
+	color: white;
+}
+
+.dangtuyen .input input#luu:hover{
+	background: #1e6939;
+}
+.dangtuyen .input input#huy:hover{
+	background-color: #eaeaea;
+}
+@media (max-width: 576px){
+
+	.dangtuyen .input input{
+
+	width: 150px;
+
+}
+
+}
+

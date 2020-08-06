@@ -1,0 +1,55 @@
+.change_pass  input{
+	border-top:0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #d1d1d1;
+	margin-left: 5px;
+	width: 100%;
+}
+
+
+.change_pass input:focus{
+	border-top:0 !important;
+	border-left: 0 !important;
+	outline: none;
+	border-right: 0 !important;
+	border-bottom: 1px solid red !important;
+}
+
+.change_pass {
+	margin-top: 50px;
+	max-width: 600px;
+	margin-bottom: 100px;
+
+}
+.change_pass .col-12{
+	margin-top: 40px;
+}
+.change_pass .input{
+	margin-top: 50px;
+}
+.change_pass .input input{
+	width: 170px;
+	border:none;
+	border-radius: 5px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.change_pass .input input#huy{
+	background-color: white;
+	color: #10c550;
+	border: 1px solid #10c550;
+	margin-left: 20px;
+	transition: 0.25s;
+}
+.change_pass .input input#luu{
+	background: #10c550;
+	color: white;
+}
+
+.change_pass .input input#luu:hover{
+	background: #1e6939;
+}
+.change_pass .input input#huy:hover{
+	background-color: #eaeaea;
+}

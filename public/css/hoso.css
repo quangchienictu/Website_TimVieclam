@@ -1,0 +1,85 @@
+.hoso .chitiet_hs input[type="file"]{
+/* 
+	padding: 35px 0 0 0;
+	max-height: 35px;
+
+	border: 1px solid #999 !important;
+	color: #222;
+	font-size: 13px;
+	font-weight: bold; */
+	/* border-radius: 4px;
+
+	width: 230px;
+	cursor: pointer; */
+		margin: 15px 0px 30px 0px;
+	border-bottom: none;
+}
+.hoso .chitiet_hs input[type="file"]:focus{
+	outline: none;
+	border: none;
+}
+.hoso input#tendn{
+width: 80% !important;
+}
+
+.hoso .chitiet_hs input{
+	border-top:0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid #d1d1d1;
+	margin-left: 5px;
+	width: 100%;
+}
+.hoso p{
+	margin-top: 20px;
+}
+.hoso span{
+	color: red;
+}
+.hoso .chitiet_hs input:first-child:focus{
+	border: 1px solid #ccc!important;
+}
+.hoso .chitiet_hs input:focus{
+	border-top:0 !important;
+	border-left: 0 !important;
+	outline: none;
+	border-right: 0 !important;
+	border-bottom: 1px solid red !important;
+}
+.hoso textarea:focus{
+	
+	outline-color: red ;
+}
+.hoso .input{
+	margin-top: 50px;
+
+}
+.hoso .input input{
+	width: 170px;
+	border:none;
+	border-radius: 5px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.hoso .input input#huy{
+	background-color: white;
+	color: #10c550;
+	border: 1px solid #10c550;
+	margin-left: 20px;
+	transition: 0.25s;
+}
+.hoso .input input#luu{
+	background: #10c550;
+	color: white;
+}
+
+.hoso .input input#luu:hover{
+	background: #1e6939;
+}
+.hoso .input input#huy:hover{
+	background-color: #eaeaea;
+}
+
+.hoso{
+		margin-bottom: 50px;
+}
